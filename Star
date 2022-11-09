@@ -1,0 +1,25 @@
+package Looping;
+
+public class Star {
+
+	public static void main(String[] args) {
+		
+		int i;
+		int j;
+		int space;
+		int n=5;
+		for(i=0;i<n;i++) {
+		for(space=5;space>i;space--) {
+			System.out.print(" ");
+			
+		}
+		for(j=0;j<=i*2 ;j++) {
+		System.out.print("*");
+		}
+		
+		System.out.println();
+		
+		}
+		
+	}
+}
